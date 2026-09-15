@@ -1,0 +1,40 @@
+# ──────────────────────────────────────────────────────────────────────────────
+# English → Amharic NMT — Python dependencies
+# Tested with Python 3.11 / conda env: amharic_nmt
+# Install: pip install -r requirements.txt
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Deep learning
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+# Data loading & processing
+datasets==2.19.1
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualisation
+matplotlib==3.8.4
+seaborn==0.13.2
+Pillow==10.3.0
+
+# Evaluation metrics
+sacrebleu==2.4.2
+nltk==3.8.1
+
+# ML utilities
+scikit-learn==1.4.2
+
+# Progress bars
+tqdm==4.66.4
+
+# Deployment
+streamlit==1.35.0
+
+# Notebook environment
+ipykernel==6.29.4
+jupyterlab==4.2.0
+
+# Serialisation
+pyarrow==16.0.0
